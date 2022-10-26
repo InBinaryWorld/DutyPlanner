@@ -1,6 +1,9 @@
-<nav class="navbar sticky-top navbar-expand-sm navbar-light bg-cornsilk" xmlns="http://www.w3.org/1999/html">
+<nav class="navbar sticky-top navbar-expand-sm navbar-light" xmlns="http://www.w3.org/1999/html">
   <div class="container-fluid px-3 px-md-4">
-    <span class="navbar-brand">Duty Planner</span>
+    <img src="assets/img/favicon-dark-bg.png" width="50" height="50" class="d-inline-block align-top me-3" alt="">
+    <span class="navbar-brand">
+      Duty Planner
+    </span>
     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -8,9 +11,10 @@
     </button>
     <div class="order-1 order-sm-0 collapse navbar-collapse" id="navbarSupportedContent">
       <div class="navbar-nav ms-auto">
-        <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">{{ 'Header.Home' | translate }}</a>
-        <a class="nav-link" routerLink="/planner" routerLinkActive="active">{{ 'Header.Planner' | translate }}</a>
-        <a class="nav-link" routerLink="/settings" routerLinkActive="active">{{ 'Header.Settings' | translate }}</a>
+        <!-- <a class="nav-link link" routerLink="/dashboard" routerLinkActive="active">{{ 'Header.Home' | translate }}</a>-->
+        <a class="nav-link link" routerLink="/planner" routerLinkActive="active">{{ 'Header.Planner' | translate }}</a>
+        <a class="nav-link link" routerLink="/settings"
+           routerLinkActive="active">{{ 'Header.Settings' | translate }}</a>
       </div>
     </div>
     <div class="order-0 order-sm-1 ms-3 d-flex flex-column">

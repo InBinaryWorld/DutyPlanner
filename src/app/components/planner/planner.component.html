@@ -29,19 +29,19 @@
         </div>
         <div class="row mt-3 mt-md-auto">
           <div class="col-9">
-            <button type="button" mat-raised-button class="btn-wide btn-gradient mt-3" color="primary"
+            <button type="button" mat-raised-button class="btn btn-wide  mt-3"
                     [disabled]="form.invalid" (click)="addEvents()">
               {{ 'Add' | translate }}
             </button>
           </div>
           <div class="col-3">
-            <button type="button" mat-raised-button class="btn-wide btn-gradient mt-3" color="primary"
+            <button type="button" mat-raised-button class="btn btn-wide  mt-3"
                     [disabled]="!events.length" (click)="clearEvents()">
               <mat-icon>close</mat-icon>
             </button>
           </div>
           <div class="col-12">
-            <button mat-raised-button class="btn-wide btn-gradient mt-3" color="primary"
+            <button mat-raised-button class="btn btn-wide mt-3"
                     [disabled]="!events.length" (click)="downloadICS()">
               {{ 'Planner.GenerateICS' | translate }}
             </button>

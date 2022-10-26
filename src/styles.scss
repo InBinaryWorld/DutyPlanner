@@ -1,3 +1,5 @@
+@use "@angular/material" as mat;
+@use "src/colors";
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
 
 
@@ -6,7 +8,6 @@ $toggle-button-radius: 4px;
 
 body {
   font-family: Lato, serif !important;
-  background-color: aliceblue !important;
 }
 
 h1, h2, h3, h4, h5, h6, nav {
@@ -18,13 +19,26 @@ html, body {
   height: 100%;
 }
 
-a {
+body a {
   cursor: pointer;
-  text-decoration: none !important;
+  text-decoration: none;
+  color: colors.$text-color;
+
+  &:hover {
+    color: colors.$text-hover-color;
+  }
 }
 
-button.btn-gradient:not([disabled]) {
-  background-image: linear-gradient(135deg, #ffefc9, #fff8e1) !important;
+.btn {
+  color: colors.$btn-text-color !important;
+  background-color: colors.$btn-color !important;
+
+  &:disabled {
+    background-color: colors.$btn-disabled-color !important;
+  }
+  &:hover{
+    background-color: colors.$btn-hovered-color !important;
+  }
 }
 
 mat-button-toggle-group {

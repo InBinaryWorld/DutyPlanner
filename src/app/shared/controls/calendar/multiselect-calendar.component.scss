@@ -1,5 +1,10 @@
 @use '@angular/material' as mat;
+@use 'src/colors';
 
 .selected-date div:first-child {
-  background-color: mat.get-color-from-palette(mat.$amber-palette, 50) !important;
+  background-color: colors.$control-accent-color !important;
+}
+
+.mat-calendar-body-today{
+  border-color: colors.$control-accent-darker-color !important;
 }

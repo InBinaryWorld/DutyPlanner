@@ -1,0 +1,25 @@
+@use '@angular/material' as mat;
+
+$palette-primary: mat.define-palette(mat.$gray-palette, 500, 300, 600);
+$palette-accent: mat.define-palette(mat.$amber-palette, 200, 50, 400);
+$palette-warn: mat.define-palette(mat.$red-palette);
+
+// COLORS
+
+$nav-bg-color: mat.get-color-from-palette($palette-primary, 800);
+$nav-shadow-color: mat.get-color-from-palette($palette-accent, 'darker');
+$nav-color: mat.get-color-from-palette($palette-accent, 'lighter');
+$nav-active-color: mat.get-color-from-palette($palette-accent, 'darker');
+$nav-hover-color: mat.get-color-from-palette($palette-accent);
+
+
+$text-color: mat.get-color-from-palette($palette-primary, 'darker');
+$text-hover-color: mat.get-color-from-palette($palette-accent);
+
+$btn-hovered-color: mat.get-color-from-palette($palette-primary, 700);
+$btn-color: mat.get-color-from-palette($palette-primary, 'darker');
+$btn-disabled-color: mat.get-color-from-palette($palette-primary);
+$btn-text-color: white;
+
+$control-accent-color: mat.get-color-from-palette($palette-accent);
+$control-accent-darker-color: mat.get-color-from-palette($palette-accent,  'darker');

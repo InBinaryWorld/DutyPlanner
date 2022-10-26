@@ -1,3 +1,5 @@
+@use 'src/colors';
+
 $border-radius: 4px;
 
 .number-picker {
@@ -5,7 +7,9 @@ $border-radius: 4px;
 }
 
 .number-arrow {
-  border: solid 1px #e0e0e0;
+  color: colors.$btn-text-color;
+  border: solid 0 #e0e0e0;
+  background-color: colors.$btn-color;
 
   &.btn-top {
     border-radius: $border-radius $border-radius 0 0;
@@ -17,7 +21,7 @@ $border-radius: 4px;
 }
 
 .picker-text {
-  border: solid #e0e0e0;
+  border: solid colors.$btn-color;
   border-width: 0 1px 0 1px;
   border-radius: 0;
   text-align: center;

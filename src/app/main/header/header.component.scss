@@ -1,17 +1,23 @@
-.bg-cornsilk {
-  background-color: cornsilk
-}
+@use "@angular/material" as mat;
+@use "src/colors";
 
 nav {
-  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
-}
+  background-color: colors.$nav-bg-color;
+  -webkit-box-shadow: 0 1px 12px colors.$nav-shadow-color;
+  -moz-box-shadow: 0 1px 12px colors.$nav-shadow-color;
+  box-shadow: 0 1px 12px colors.$nav-shadow-color;
 
-.link {
-  color: rgba(0, 0, 0, 0.55);
+  .navbar-brand {
+    color: colors.$nav-active-color !important;
+  }
+  .link {
+    color: colors.$nav-color !important;
 
-  &.active {
-    color: rgba(0, 0, 0, 0.9);
+    &.active {
+      color: colors.$nav-active-color !important;
+    }
+    &:hover {
+      color: colors.$nav-hover-color !important;
+    }
   }
 }
