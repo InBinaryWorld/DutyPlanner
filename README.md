@@ -8,9 +8,10 @@
 
 <div align="center">
 
+[//]: # (![Version][project-version-shield])
+
 [![License][license-shield]][license-url]
 ![Top language][top-language-shield]
-![Version][project-version-shield]
 ![Contributors][contributors-shield]
 ![Last commit][last-commit-shield]
 ![Angular version][angular-version-shield]
@@ -198,7 +199,7 @@ Find me on:
 
 [license-shield]: https://img.shields.io/github/license/InBinaryWorld/DutyPlanner
 
-[license-url]: https://github.com/InBinaryWord/DutyPlanner/blob/master/LICENSE.txt
+[license-url]: https://github.com/InBinaryWorld/DutyPlanner/blob/master/LICENSE
 
 [top-language-shield]: https://img.shields.io/github/languages/top/InBinaryWorld/DutyPlanner
 
