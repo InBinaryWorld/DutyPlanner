@@ -16,7 +16,7 @@ nav {
     &.active {
       color: colors.$nav-active-color !important;
     }
-    &:hover {
+    &:hover:not(.active) {
       color: colors.$nav-hover-color !important;
     }
   }
