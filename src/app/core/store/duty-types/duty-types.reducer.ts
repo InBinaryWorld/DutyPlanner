@@ -6,20 +6,20 @@ import { StoreUtils } from '../utils/store-utils';
 
 const defaultVariants: DutyType[] = [
   {
-    id: 'Pediatrics 👶🏼',
-    eventName: 'Shift Within The Pediatrics Unit 👶🏼',
-    place: 'County Hospital in Rawicz,\n' +
-      'Generała Grota-Roweckiego 6, 63-900 Rawicz, Poland'
+    id: 'Pediatria 👶🏼',
+    eventName: 'Dyżur Pediatria 👶🏼',
+    place: 'Szpital Powiatowy w Rawiczu Sp. z o.o.,\n' +
+      'Generała Grota-Roweckiego 6, 63-900 Rawicz, Polska'
   }, {
-    id: 'ICU 🏥',
-    eventName: 'Shift Within The Intensive Care Unit 🏥',
-    place: 'County Hospital in Rawicz,\n' +
-      'Generała Grota-Roweckiego 6, 63-900 Rawicz, Poland'
+    id: 'OIOM 🏥',
+    eventName: 'Dyżur OIOM 🏥',
+    place: 'Szpital Powiatowy w Rawiczu Sp. z o.o.,\n' +
+      'Generała Grota-Roweckiego 6, 63-900 Rawicz, Polska'
   }, {
     id: 'Neo 👩‍⚕',
-    eventName: 'Shift Within The Neonatology 👩‍⚕',
-    place: 'County Hospital in Rawicz,\n' +
-      'Generała Grota-Roweckiego 6, 63-900 Rawicz, Poland'
+    eventName: 'Dyżur Neonantologia 👩‍⚕',
+    place: 'Szpital Powiatowy w Rawiczu Sp. z o.o.,\n' +
+      'Generała Grota-Roweckiego 6, 63-900 Rawicz, Polska'
   }
 ];
 
