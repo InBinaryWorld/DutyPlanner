@@ -6,15 +6,15 @@ import { StoreUtils } from '../utils/store-utils';
 
 const defaultVariants: DutyTimeVariant[] = [
   {
-    id: 'Dniówka ☀️',
+    id: 'Day ☀️',
     startTime: { hours: 7, minutes: 0 },
     duration: { hours: 12, minutes: 0 }
   }, {
-    id: 'Nocka 🌙',
+    id: 'Night 🌙',
     startTime: { hours: 19, minutes: 0 },
     duration: { hours: 12, minutes: 0 }
   }, {
-    id: 'Dzień&Noc 💰',
+    id: 'Day&Night 💰',
     startTime: { hours: 7, minutes: 0 },
     duration: { hours: 24, minutes: 0 }
   }
