@@ -8,9 +8,10 @@
 
 <div align="center">
 
+[//]: # (![Version][project-version-shield])
+
 [![License][license-shield]][license-url]
 ![Top language][top-language-shield]
-![Version][project-version-shield]
 ![Contributors][contributors-shield]
 ![Last commit][last-commit-shield]
 ![Angular version][angular-version-shield]
@@ -44,13 +45,12 @@
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
+  * [Development server](#development-server)
+  * [Build](#build)
+  * [Express server](#express-server)
 * [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -152,16 +152,16 @@ To Start this app, you first need to get:
 * [Node][python-download-url] in version 12.20.x/14.15.x/16.10.x or later minor version.
 
 
-## Development server
+### Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you
 change any of the source files.
 
-## Build
+### Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Express server
+### Express server
 
 Run `npm start` to start Express server to serve static app files (Build is required). 
 This command uses created server.js script which allows Heroku to deploy app. 
@@ -198,7 +198,7 @@ Find me on:
 
 [license-shield]: https://img.shields.io/github/license/InBinaryWorld/DutyPlanner
 
-[license-url]: https://github.com/InBinaryWord/DutyPlanner/blob/master/LICENSE.txt
+[license-url]: https://github.com/InBinaryWorld/DutyPlanner/blob/master/LICENSE
 
 [top-language-shield]: https://img.shields.io/github/languages/top/InBinaryWorld/DutyPlanner
 
