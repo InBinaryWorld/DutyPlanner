@@ -29,7 +29,7 @@
   <a href="https://github.com/InBinaryWorld/DutyPlanner"><strong>Explore the docs »</strong></a>
   <br/>
   <br/>
-  <a href="https://duty-planner.herokuapp.com"><strong>View Demo</strong></a>
+  <a href="https://schedule-duty.web.app"><strong>View Demo</strong></a>
   ·
   <a href="https://github.com/InBinaryWorld/DutyPlanner/issues">Report Bug</a>
   ·
